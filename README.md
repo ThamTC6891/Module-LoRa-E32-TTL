@@ -5,14 +5,18 @@
 * 2/ Cách nối dây giữa LoRa với MCU như bên dưới (ở đây lấy ví dụ là Arduino) 
 - Module LoRa ******** Arduino
 - AUX      ----------> Not connect
-M0, M1     --------> Pin Output (vd: Pin 3)
-TXD      ----------> RXD 
+'M0, M1     --------> Pin Output (vd: Pin 3)
+'TXD      ----------> RXD 
 RXD      ----------> TXD 
 GND      ----------> GND
 5V      -----------> 5V
 
 | Module LoRa | Arduino |
 |--------------|-------|
-| Hàng 2 | 2 x 1 |
-| Hàng 3 | 3 x 1 |
-| Hàng 4 | 4 x 1 |
+| AUX | NC |
+| M0 | 2 x 1 |
+| M1 | 3 x 1 |
+| TXD | 4 x 1 |
+| RXD | 4 x 1 |
+| 5V | 4 x 1 |
+| GND | 4 x 1 |
