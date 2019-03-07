@@ -5,3 +5,5 @@
 * 2/ Cách nối dây giữa LoRa với MCU như bên dưới (ở đây lấy ví dụ là Arduino) 
 | Module LoRa | Arduino |
 |-------------|---------|
+| M0 | Pin 3 |
+| M1 | Pin 3 |
