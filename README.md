@@ -20,4 +20,4 @@ GND      ----------> GND
 | RXD | 4 x 1 |
 | 5V | 4 x 1 |
 | GND | 4 x 1 |
-<img src="https://i.imgur.com/m0qwxfS.jpg">
+<img src="https://imgur.com/ftW2yHs">
